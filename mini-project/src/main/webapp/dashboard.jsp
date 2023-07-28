@@ -19,7 +19,7 @@ response.setHeader("Expires", "0");
             String url, usename, pass;
             url = "jdbc:mysql://localhost:3306/student";
             usename = "root";
-            pass = "N@ndu456";
+            pass = "******";
             
             Connection con = DriverManager.getConnection(url, usename, pass);
             String query = "SELECT * FROM fname WHERE uname = ?";
