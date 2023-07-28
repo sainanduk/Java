@@ -38,7 +38,7 @@ public class RegisterServlet3 extends HttpServlet {
 	    		
 	    		try {
 	    			 String url= "jdbc:mysql://localhost:3306/student";
-	    			 String user ="root",password = "N@ndu456";
+	    			 String user ="root",password = "******";
 	    			Connection con = DriverManager.getConnection(url,user,password);
 	    			String query = "insert into fname values(?,?,?,?,?,?,?,?)";
 	    			PreparedStatement stmt = con.prepareStatement(query);
